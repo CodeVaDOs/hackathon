@@ -1,0 +1,13 @@
+version: '3'
+services:
+  hackdb:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=db
+    ports:
+      - "5432:5432"
+    volumes:
+      - './init.sql:/docker-entrypoint-initdb.d/10-init.sql'
