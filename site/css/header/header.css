@@ -1,0 +1,49 @@
+.header {
+    background: #000000;
+}
+
+.imgBox {
+    display: inline-table;
+    height: 80px;
+    width: 90px;
+}
+
+.nav {
+    height: 80px;
+
+    background: #000000;
+}
+
+.nav ul {
+    margin: 0px;
+    margin-left: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav ul li{
+    display: inline-table;
+    height: 50px;
+    width: 90px;
+    float: left;
+
+    color: white;
+
+    font-size: 18px;
+    
+    text-align: center;
+    
+    padding-top: 30px;
+}
+
+nav ul li a{
+    height: 50px;
+    width: 90px;
+    float: left;
+
+    color: white;
+
+    font-size: 18px;
+    
+    text-align: center;
+}
